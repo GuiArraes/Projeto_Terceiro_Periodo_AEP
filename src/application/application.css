@@ -1,0 +1,10 @@
+.root {
+	-fx-background-color: linear-gradient(#17181D, #2E0F47, #17181D);
+}
+
+.button.Radius {
+	-fx-border-radius: 30px;
+	-fx-background-radius: 30px;
+	-fx-border-color: white;
+	-fx-border-width: 2px;
+}

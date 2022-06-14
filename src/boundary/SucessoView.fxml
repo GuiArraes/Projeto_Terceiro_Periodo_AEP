@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="backgroundColor" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boundary.SucessoView">
+   <children>
+      <Label alignment="CENTER" layoutX="16.0" layoutY="90.0" prefHeight="20.0" prefWidth="167.0" text="Cadastrado com Sucesso!!!" textFill="WHITE" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="100.0" layoutY="141.0" mnemonicParsing="false" onAction="#onActionBtOk" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #F1304D;" styleClass="buttonRadius" stylesheets="@../application/application.css" text="Novo" textFill="WHITE" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="109.0" AnchorPane.rightAnchor="21.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="21.0" layoutY="27.0" prefHeight="20.0" prefWidth="157.0" text="Bem Vindo a GreenBox" textFill="WHITE" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="21.0" layoutY="141.0" mnemonicParsing="false" onAction="#onActionBtSair" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: E9C042;" styleClass="buttonRadius" stylesheets="@../application/application.css" text="Sair" textFill="WHITE" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="109.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
