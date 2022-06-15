@@ -44,7 +44,7 @@ public class CadastroEnderecoView {
 	@FXML
     void onActionBtCadastrar(ActionEvent event) {
 		try {
-			PessoaFisica pf = new PessoaFisica(pessoaFisica.getNome(), pessoaFisica.getSenha(), pessoaFisica.getConfirmarSenha(), pessoaFisica.getNome(), pessoaFisica.getCpf());
+			PessoaFisica pf = new PessoaFisica(pessoaFisica.getEmail(), pessoaFisica.getSenha(), pessoaFisica.getConfirmarSenha(), pessoaFisica.getNome(), pessoaFisica.getCpf());
 			Endereco end = this.controller.enderecoCad(); //Obtem o model (entity) de Endereco
 
 			this.controller.gravarBanco(pf, end);           
